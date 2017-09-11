@@ -11,7 +11,7 @@
     $body = "From: $name\n E-Mail: $email\n TeamName: $password\n Game Name: $uname\n Phone: $phone" ;
 ?>
 <?php
-if ($_POST['wf']) {
+if ($_POST['signup']) {
    (mail ($to, $subject, $body, $from)) { 
         
     else { 
